@@ -44,6 +44,7 @@ function App() {
 
 	return (
 		<div className='flex max-w-6xl mx-auto bg-black text-white'>
+			<button className="btn btn-primary">Test Button</button>
 			{/* Common component, bc it's not wrapped with Routes */}
 			{authUser && <Sidebar />}
 			<Routes>
