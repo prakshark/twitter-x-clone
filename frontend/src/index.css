@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    /* Make the entire page black background */
+    background-color: black;
+    /* Set the font family to Inter */
+    font-family: 'Inter', sans-serif;
+}
