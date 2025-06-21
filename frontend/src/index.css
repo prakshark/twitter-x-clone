@@ -8,3 +8,16 @@ body{
     /* Set the font family to Inter */
     font-family: 'Inter', sans-serif;
 }
+
+input {
+    /* Set the input background to black */
+    background-color: black;
+    /* Set the input text color to white */
+    color: white;
+    /* Set the input border to a light gray */
+    border: 1px solid #333;
+    /* Set the input placeholder text color to a light gray */
+    &::placeholder {
+        color: #666;
+    }
+}
